@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "build": "webpack && mkdir -p dist/lib && cp -r endless.html assets dist && cp lib/bundle.js dist/lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
